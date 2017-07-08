@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @facts = Fact.all
+    @fact = Fact.all
     @confact = Fact.where(category: "confucius").shuffle.first
 
     @anifact = Fact.where(category: "animal").shuffle.first
