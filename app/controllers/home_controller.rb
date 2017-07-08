@@ -1,22 +1,23 @@
 class HomeController < ApplicationController
   def index
-    @apis = api.all
-    @confact = api.where(category: "confucius").shuffle.first
+    @facts = Fact.all
+    @confact = Fact.where(category: "confucius").shuffle.first
 
-    @anifact = api.where(category: "animal").shuffle.first
+    @anifact = Fact.where(category: "animal").shuffle.first
 
-    @proverb = api.where(category: "proverbs").shuffle.first
+    @proverb = Fact.where(category: "proverbs").shuffle.first
 
-    @socfact = api.where(category: "socrates").shuffle.first
+    @socfact = Fact.where(category: "socrates").shuffle.first
 
-    @haifact = api.where(category: "haiku").shuffle.first
+    @haifact = Fact.where(category: "haiku").shuffle.first
   end
+  
   def new
-    @api = api.new
+    @fact = Fact.new
   end
 
   def create
-    api = api.new(
+    @fact = Fact.new(
     type: params[:fact][:type],
     content: params[:fact][:content]
   )
