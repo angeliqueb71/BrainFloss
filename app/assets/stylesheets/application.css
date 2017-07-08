@@ -1,0 +1,83 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #DECBB7;
+  color: #433633;
+  letter-spacing: 0.1em;
+}
+
+a {
+  text-decoration: none;
+  color: #433633;
+}
+
+.logo {
+   position: relative;
+   top: 8px;
+}
+
+h1, h2, h3 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+nav {
+ font-family: 'Luckiest Guy', cursive;
+ background-color: #ff6961;
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ width: 100%;
+ z-index: 11;
+ padding: 15px;
+ color: #454545;
+ border-bottom: 20px solid #454545;
+ height: 85px;
+}
+
+nav h2 {
+  display: inline;
+  position: relative;
+  left: -2px;
+  letter-spacing: 0.2em;
+  margin-right: 150px;
+}
+
+nav ul {
+  position: relative;
+  left: 80px;
+}
+
+nav li {
+  display: inline;
+  position: relative;
+  top: -35px;
+  left: 240px;
+  padding-right: 70px;
+  font-size: 18px;
+  width: 50px;
+  letter-spacing: .1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #454545;
+}
+
+nav a:hover {
+  color: #feccc9;
+}

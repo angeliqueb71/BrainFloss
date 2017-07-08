@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BRAINFLOSS</title>
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <%= favicon_link_tag 'favicon.ico' %>
+
+  </head>
+
+
+  <body>
+
+    <nav>
+      <%= image_tag('brainLogo.png', size: "70x70", class: "logo") %>
+      <h2>BrainFloss</h2>
+      <ul>
+        <li><a href="/">home</a></li>
+        <li><a href="/life">life</a></li>
+        <li><a href="/beauty">beauty</a></li>
+      </ul>
+    </nav>
+
+
+    <%= yield %>
+
+
+  </body>
+</html>
