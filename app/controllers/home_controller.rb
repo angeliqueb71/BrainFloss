@@ -11,7 +11,7 @@ class HomeController < ApplicationController
 
     @haifact = Fact.where(category: "haiku").shuffle.first
   end
-  
+
   def new
     @fact = Fact.new
   end
