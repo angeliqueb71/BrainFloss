@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  get 'facts/index'
+
+  get 'facts/new'
 
   root 'home#index'
 
@@ -7,7 +10,7 @@ Rails.application.routes.draw do
 
   get '/beauty' => 'beauty#index'
 
-
+  
 
   resources :comments
 
