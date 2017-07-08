@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+
   get 'facts/index'
 
   get 'facts/new'
@@ -10,7 +11,10 @@ Rails.application.routes.draw do
 
   get '/beauty' => 'beauty#index'
 
-  
+  get '/memory' => 'trivia#index'
+
+
+
 
   resources :comments
 
