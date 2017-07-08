@@ -1,2 +1,0 @@
-class Fact < ApplicationRecord
-end
