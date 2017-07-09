@@ -2,91 +2,91 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-// #body1 {
-//       position: relative;
-//   }
-//   #section1 {
-//     position: absolute;
-//     top: 160px;
-//     left: 500px;
-//     width: 500px;
-//     height: 520px;
-//     background-color: #66CCCC;
-//     padding: 10px 30px 30px 30px;
-//     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//     -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-// 	}
-//   #section2 {
-//     position: absolute;
-//     top: 530px;
-//     left: 20px;
-//     width: 380px;
-//     height: 1197px;
-//     background-color: #77DD77;
-//     padding: 10px 30px 30px 30px;
-//     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//     -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-// 	}
-//   #section3 {
-//     position: absolute;
-//     top: 750px;
-//     left: 500px;
-//     width: 800px;
-//     height: 225px;
-//     background-color: #fcfc75;
-//     padding: 10px 30px 30px 30px;
-//     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//     -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-// 	}
-//   #section41 {
-//     position: absolute;
-//     top: 1045px;
-//     left: 500px;
-//     width: 100;
-//     height: 290px;
-//     background-color: #6961ff;
-//     padding: 10px 30px 30px 30px;
-//     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//     -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-// 	}
-//
-//
-//   #video2 {
-//     position: absolute;
-//     top: 160px;
-//     left: 0px;
-//     width: 400px;
-//     height: 300px;
-//     z-index: 0;
-//     background-color: #0BB5FF;
-//     padding: 10px 30px 30px 30px;
-//     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//     -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//   }
-//
-//   // life lucy pic
-// .video1 {
-//   position: absolute;
-//   top: 160px;
-//   left: 1097px;
-//   width: 400px;
-//   height: 300px;
-//   z-index: 0;
-//   background-color: #DB70DB;
-//   padding: 10px 30px 30px 30px;
-//   -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//   -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-//   box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-// }
-// .video1 :hover {
-//   background-color: #EE82EE;
-//   top: 159px;
-//   left: 19px;
-//   width: 382px;
-//   height: 302px;
-// }
+#body1 {
+      position: relative;
+  }
+  #section1 {
+    position: absolute;
+    top: 160px;
+    left: 500px;
+    width: 500px;
+    height: 520px;
+    background-color: #66CCCC;
+    padding: 10px 30px 30px 30px;
+    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+	}
+  #section2 {
+    position: absolute;
+    top: 530px;
+    left: 20px;
+    width: 380px;
+    height: 1197px;
+    background-color: #77DD77;
+    padding: 10px 30px 30px 30px;
+    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+	}
+  #section3 {
+    position: absolute;
+    top: 750px;
+    left: 500px;
+    width: 800px;
+    height: 225px;
+    background-color: #fcfc75;
+    padding: 10px 30px 30px 30px;
+    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+	}
+  #section41 {
+    position: absolute;
+    top: 1045px;
+    left: 500px;
+    width: 100;
+    height: 290px;
+    background-color: #6961ff;
+    padding: 10px 30px 30px 30px;
+    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+	}
+
+
+  #video2 {
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    width: 400px;
+    height: 300px;
+    z-index: 0;
+    background-color: #0BB5FF;
+    padding: 10px 30px 30px 30px;
+    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+  }
+
+  // life lucy pic
+.video1 {
+  position: absolute;
+  top: 160px;
+  left: 1097px;
+  width: 400px;
+  height: 300px;
+  z-index: 0;
+  background-color: #DB70DB;
+  padding: 10px 30px 30px 30px;
+  -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+  -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+  box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
+}
+.video1 :hover {
+  background-color: #EE82EE;
+  top: 159px;
+  left: 19px;
+  width: 382px;
+  height: 302px;
+}
