@@ -1,0 +1,145 @@
+/***********************
+ * Global styles
+ **********************/
+* {
+  margin: 0; padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*.ad-size{ 
+  width: 300px; height: 250px; 
+}
+*.hidden{ 
+  opacity: 0;
+}
+sup{
+  font-size: 0.5em;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Audi Normal', Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+}
+
+div#container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  cursor: pointer;
+  background: transparent no-repeat;
+  background-position: center center;
+  -webkit-transition: opacity 0.3s linear;
+     -moz-transition: opacity 0.3s linear;
+      -ms-transition: opacity 0.3s linear;
+       -o-transition: opacity 0.3s linear;
+          transition: opacity 0.3s linear;
+}
+
+/***********************
+ * Layout styles
+ **********************/
+div#container > *{
+  position: absolute;
+}
+.logo{
+  z-index: 2;
+  width: 298px;
+  height: 248px;
+}
+.car{
+  opacity: 0;
+  z-index: 0;
+}
+.headlight{
+  opacity: 0;
+  z-index: 1;
+}
+.car-make{
+  font-family: 'Audi Extended Bold';
+  font-size: 16px;
+  color: #d3224e;
+  top: 70px;
+  /*left: 20px;*/
+}
+.car-model{
+  font-family: 'Audi Extended Bold';
+  font-size: 42px;
+  /*left: 19px;*/
+  top: 82px;
+  display: inline-block;
+}
+.headlines{
+  font-family: 'Audi Extended Bold';
+  color: #6d7579;
+  left: 14px;
+  top: 122px;
+  width: 125px;
+  height: 90px;
+  position: relative !important; 
+  overflow: hidden;
+}
+.headline{
+  position: absolute;
+  font-size: 15px;
+  width: 125px;
+  top: 50%;
+  opacity: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.background-img {
+  width:299px;
+  height:248px;
+  opacity: 0;
+}
+
+.sub-headline{
+  position: relative;
+  font-size: 15px;
+  width: 100px;
+  opacity:0;
+}
+
+.ff-disclaimer {
+  font-size: 8.3px;
+  font-family: 'Audi Normal';
+  color:#003366;
+  bottom:12px;
+  left:14px;
+  opacity: 0;
+  z-index: 99;
+  border-bottom:1px solid;
+}
+
+.click-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 50;
+}
+
+.cta{
+  font-family: 'Audi Bold';
+  font-size: 11px;
+  left: 14px;
+  top: 207px;
+  opacity: 0;
+}
+.cta:after{
+  content: '\203A';
+  font-size: 1.5em;
+  top: 2px;
+  left: 4px;
+  position: relative;
+  display: inline-block;
+  color: #d3224e;
+}

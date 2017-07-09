@@ -66,12 +66,13 @@ nav li {
   display: inline;
   position: relative;
   top: -35px;
-  left: 240px;
-  padding-right: 70px;
-  font-size: 18px;
+  margin-left: 18em;
+  padding-right: 40px;
   width: 50px;
-  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-size: 1.2rem;
 }
+
 
 nav a {
   text-decoration: none;

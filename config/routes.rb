@@ -1,12 +1,15 @@
 Rails.application.routes.draw do
 
-  root '/beauty' => 'beauty#index'
-  
+
   get 'facts/index'
+
   get 'facts/new'
-  get 'home#index'
+
+  root 'home#index'
 
   get '/life' => 'life#index'
+
+  get '/beauty' => 'beauty#index'
 
   get '/memory' => 'trivia#index'
 

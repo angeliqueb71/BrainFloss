@@ -1,0 +1,30 @@
+
+var ftGUID_2291060="3413244AA1BB2A";
+var ftConfID_2291060="5883258";
+var ftParams_2291060="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=y-flickr.yahoo.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fy-flickr.yahoo.com%2Fad%3Fspaceid%3D792600147%26position%3DLREC&cachebuster=969305.3019496369";
+var ftKeyword_2291060="";
+var ftCustom_2291060="";
+var ftSection_2291060="";
+var ftSegment_2291060="o2t,igk,igl,igp,k2f,n7h,f5u,k2ffd87f,kha,ny7";
+var ftSegmentList_2291060=[{s:'o2t'},{s:'igk'},{s:'igl'},{s:'igp'},{s:'k2f',t:34620000},{s:'n7h'},{s:'f5u'},{m:'k2f_cat',s:'k2ffd87f',t:34620000},{m:'p83_7335',s:'kha',t:34660000},{s:'ny7'}];
+var ftRuleMatch_2291060="0";
+var ftTimestamp_2291060="1499569311";
+var ftGeoC2_2291060="us";
+var ftGeoState_2291060="ny";
+var ftGeoCity_2291060="nanuet";
+var ftISP_2291060="verizon business";
+var ftSpeed_2291060="broadband";
+var ftDMA_2291060="501";
+var ftLong_2291060="-74.0094";
+var ftLat_2291060="41.0983";
+var ftPostal_2291060="10954";
+var ftTimeZone_2291060="-400";
+var ftMobileCarrier_2291060="";
+var ftImp2291060 = {};
+ftImp2291060.privacy = "x";
+ftImp2291060.guidAge = "64";
+ftImp2291060.impID = "3477C6F733E401";
+
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/229/2291060/1905217/js/j-2291060-1905217.js" id="ftscript_m2291060" name="ftscript_m2291060"></scr'+'ipt>');
+                    

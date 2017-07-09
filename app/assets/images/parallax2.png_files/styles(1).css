@@ -1,0 +1,373 @@
+/***********************
+ * Global styles
+ **********************/
+* {
+  margin: 0; padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		  -ms-box-sizing: border-box;
+		      box-sizing: border-box;
+}
+*.ad-size{ 
+  width: 300px; height: 250px; 
+}
+*.hidden{ 
+  opacity: 0;
+}
+sup{
+  font-size: 0.5em;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Audi Normal', Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 12px;
+	font-style: normal;
+}
+
+div#container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	cursor: pointer;
+  background: transparent no-repeat;
+  background-position: center center;
+  -webkit-transition: opacity 0.3s linear;
+     -moz-transition: opacity 0.3s linear;
+      -ms-transition: opacity 0.3s linear;
+       -o-transition: opacity 0.3s linear;
+          transition: opacity 0.3s linear;
+}
+
+/***********************
+ * Layout styles
+ **********************/
+div#container > *{
+  position: absolute;
+}
+.logo{
+  z-index: 1;
+  width: 298px;
+  height: 248px;
+}
+.legal a{
+  position: relative;
+  color: #003366;
+  z-index: 99;
+  text-decoration: underline;
+  /*border-bottom: 1px solid;*/
+}
+/*.overlay{*/
+  /*z-index: 100;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*background: #666666;*/
+  /*color: #fff;*/
+  /*padding: 50px 20px 20px;*/
+  /*top: 100%;*/
+  /*-webkit-transition: top 0.3s linear;*/
+     /*-moz-transition: top 0.3s linear;*/
+      /*-ms-transition: top 0.3s linear;*/
+       /*-o-transition: top 0.3s linear;*/
+          /*transition: top 0.3s linear;*/
+/*}*/
+/*.overlay.open{*/
+  /*top: 0;*/
+/*}*/
+/*.close{*/
+  /*position: absolute;*/
+  /*top: 10px;*/
+  /*right: 10px;*/
+  /*width: 30px;*/
+  /*height: 30px;*/
+  /*background-image: url('../close.png');*/
+  /*background-repeat: no-repeat;*/
+/*}*/
+
+.click-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 50;
+}
+
+/*  Generic  */
+.generic .cta{
+  font-family: 'Audi Bold';
+  font-size: 11px;
+  left: 14px;
+  top: 207px;
+}
+
+.generic .cta:after{
+  content: '\203A';
+  font-size: 1.5em;
+  top: 2px;
+  left: 4px;
+  position: relative;
+  display: inline-block;
+  color: #d3224e;
+}
+
+.generic .car-model {
+  font-family: 'Audi Extended Bold';
+  font-size: 42px;
+  left: 14px;
+  top: 82px;
+  display: inline-block;
+}
+
+.generic .car-make {
+  font-family: 'Audi Extended Bold';
+  font-size: 16px;
+  color: #d3224e;
+  top: 70px;
+   left: 14px;
+}
+
+.generic .car-information  > .car-details{
+  font-family: 'Audi Extended Bold';
+  font-size: 11px;
+  display: inline-block;
+  color: #6d7579;
+  letter-spacing: -1px;
+  line-height: 95%;
+}
+.generic .car-information >  .car-model{
+  font-family: 'Audi Extended Bold';
+  font-size: 42px;
+  display: inline-block;
+  margin: -3px 4px;
+  line-height: 70%;
+}
+
+/*  APR  */
+.apr .offer-block{
+  left: 20px;
+  top: 100px;
+}
+.apr .car-information{
+  display: block;
+  float: left;
+}
+.apr .car-information  > .car-details{
+  font-family: 'Audi Extended Bold';
+  font-size: 10px;
+  display: inline-block;
+  color: #6d7579;
+  letter-spacing: -1px;
+  line-height: 95%;
+}
+.apr .car-information >  .car-model{
+  font-family: 'Audi Extended Bold';
+  font-size: 23px;
+  display: inline-block;
+  margin: -3px 4px;
+  line-height: 70%;
+}
+
+.apr .divider {
+  height: 24px;
+  width: 1px;
+  display: block;
+  margin-left: 4px;
+  margin-top: -4px;
+  border-left: 1px solid grey;
+  float: left;
+}
+
+.apr .car-information > .car-details > .car-make{
+  letter-spacing: 0.5px;
+}
+.apr .apr-offer{
+  font-family: 'Audi Extended Bold';
+  font-size: 23px;
+  display: block;
+  float: left;
+  letter-spacing: -1px;
+  line-height: 70%;
+  margin-top: -3px;
+  padding-left: 7px;
+}
+.apr .legal{
+  top: 132px;
+  padding: 0 14px;
+  color: #6d7579;
+}
+.apr .cta{
+  font-family: 'Audi Extended Bold';
+  left: 20px;
+  top: 215px;
+  font-size: 11px;
+}
+.apr .cta:after{
+  content: '\203A';
+  font-size: 1.5em;
+  top: 2px;
+  left: 4px;
+  position: relative;
+  display: inline-block;
+  color: #d3224e;
+}
+
+/*  Lease  */
+.lease .car-model{
+  font-family: 'Audi Extended Bold';
+  font-size: 42px;
+  left: 19px;
+  top: 50px;
+  display: inline-block;
+}
+.lease .car-details{
+  font-family: 'Audi Extended Bold';
+  letter-spacing: 0px;
+  display: inline-block;
+  font-size: 10px;
+  color: #6d7579;
+}
+.lease .cta{
+  font-family: 'Audi Extended Bold';
+  left: 16px;
+  top: 93px;
+  font-size: 11px;
+}
+.lease .cta:after{
+  content: '\203A';
+  font-size: 1.5em;
+  top: 2px;
+  left: 4px;
+  position: relative;
+  display: inline-block;
+  color: #d3224e;
+}
+.lease .dollar-sign{
+  font-family: 'Audi Extended Bold';
+  font-size: 0.65em;
+  display: inline-block;
+  line-height: 100%;
+  margin-top: 6px;
+  margin-left: -7px;
+  position: absolute;
+}
+.lease .lease-price,
+.lease .lease-months,
+.lease .lease-due,
+.lease .price,
+.lease .months,
+.lease .due{
+  display: inline-block;
+  text-align: center;
+}
+.lease .static-copy{
+  font-family: 'Audi Normal';
+  font-size: 0.65em;
+  text-align: center;
+  display: block;
+  font-size: 12px;
+}
+.lease .price,
+.lease .months,
+.lease .due{
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+.lease .lease-block div{
+  font-family: 'Audi Extended Bold';
+  font-size: 18px;
+  padding:0 9px;
+}
+.lease .lease-block div:first-child{
+  padding-left: 0;
+  padding-right: 12px;
+}
+.lease .lease-block div:last-child{
+  padding-left: 14px;
+}
+.lease .legal{
+  top: 181px;
+  padding: 0px 12px 0 14px;
+  color: #6d7579;
+  font-size: 12px;
+  line-height: 14px;
+}
+.lease .lease-plus{
+  margin-bottom: 4px;
+  margin-top: -10px;
+  color: initial;
+  font-family: 'Audi Extended Bold';
+  font-size: 11px;
+}
+
+/*  Bonus  */
+.bonus .car-model{
+  font-family: 'Audi Extended Bold';
+  font-size: 42px;
+  display: inline-block;
+}
+.bonus .cta{
+  font-family: 'Audi Extended Bold';
+  left: 20px;
+  top: 220px;
+  font-size: 11px;
+}
+.bonus .cta:after{
+  content: '\203A';
+  font-size: 1.5em;
+  top: 2px;
+  left: 4px;
+  position: relative;
+  display: inline-block;
+  color: #d3224e;
+}
+.bonus .offer-wrapper{
+  top: 116px;
+  left: 11px;
+  font-size: 21px;
+}
+.bonus .dollar-sign{
+  font-family: 'Audi Extended Bold';
+  font-size: 0.65em;
+  display: inline-block;
+  line-height: 100%;
+  top: -4px;
+  left: 2px;
+  position: relative;
+}
+.bonus .offer-head{
+  font-family: 'Audi Extended Bold';
+  display: inline-block;
+  letter-spacing: -1px;
+}
+.bonus .offer-subhead{
+  font-family: 'Audi Normal Extended';
+  font-size: 10.5px;
+  color: #6d7579;
+  display: inline-block;
+  left: 14px;
+  top: 145px;
+}
+.bonus .legal{
+  top: 165px;
+  padding: 0 14px;
+  color: #6d7579;
+  font-size: 10.5px;
+  line-height: 125%;
+}
+
+.bonus .car-details {
+  font-family: 'Audi Extended Bold';
+  letter-spacing: 0px;
+  display: inline-block;
+  font-size: 10px;
+  color: #6d7579;
+}
+
+.asterisk {
+  font-size: 12px;
+  top: -8px;
+  position: relative;
+}
