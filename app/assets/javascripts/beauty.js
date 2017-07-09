@@ -5,3 +5,18 @@
 // # //= require jquery_ujs
 // # //= require turbolinks
 // # //= require_tree .
+
+jQuery(document).ready(function(){
+  $(window).scroll(function(e){
+    parallaxScroll();
+    });
+ });
+function parallaxScroll(){
+    console.log("parallaxscroll")
+    var scrolled = $(window).scrollTop();
+    $('#bg3-1').css('top',(0-(scrolled*.19))+'px');
+    $('#bg3-2').css('top',(0-(scrolled*.4))+'px');
+    $('#bg3-3').css('top',(0-(scrolled*.75))+'px');
+    $('#bg3-4').css('top',(0-(scrolled*.3166))+'px');
+		$('#bg1-4').css('top',(0-(scrolled*.1630))+'px');
+}
